@@ -1,0 +1,3 @@
+[submodule "kraken"]
+	path = kraken
+	url = https://github.com/helvete003/Kraken-Binary
