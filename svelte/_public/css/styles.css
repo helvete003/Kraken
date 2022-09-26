@@ -1,0 +1,39 @@
+header {
+    border-bottom:1px solid #d1d1d1;
+    background-color:#f4f5f6;
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    z-index:2;
+    box-shadow: 0 -.4rem .9rem .2rem #00000080;
+}
+
+#logo {
+    max-width:7.6rem;
+    margin:1rem;
+}
+
+.header-content {
+    color:black;
+    display: flex;
+    align-items: center;
+    height:8rem;
+}
+.header-text {
+    display:flex;
+    flex-direction: column;
+}
+.header-text>* {
+    margin:0;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.header-text p {
+    font-size: 0.8em;
+    color:#ee7f01;
+}
+main {
+    padding:8rem 0 0 9rem;
+}
